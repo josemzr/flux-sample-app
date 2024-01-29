@@ -3,7 +3,7 @@ kind: Kustomization
 namespace: demo
 resources:
 - ../../base
-- demo-ns.yaml
+#- demo-ns.yaml
 patchesJson6902:
   - target:
       version: v1
