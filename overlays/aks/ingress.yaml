@@ -7,7 +7,8 @@ metadata:
     kubernetes.io/ingress.class: addon-http-application-routing
 spec:
   rules:
-  - http:
+  - host: bgd.84b92564d8a04b128b60.uksouth.aksapp.io
+    http:
       paths:
       - path: /
         pathType: Prefix
