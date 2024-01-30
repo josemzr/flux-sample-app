@@ -1,3 +1,4 @@
 resources:
+- demo-ns.yaml
 - deployment.yaml
 - service.yaml
