@@ -3,11 +3,10 @@ kind: Ingress
 metadata:
   name: bgd
   namespace: demo
-  annotations:
-    kubernetes.io/ingress.class: addon-http-application-routing
 spec:
+  ingressClassName: webapprouting.kubernetes.azure.com
   rules:
-  - host: bgd.84b92564d8a04b128b60.uksouth.aksapp.io
+  - host: demo.aks-gitops.azure.d-sancho.com
     http:
       paths:
       - path: /
