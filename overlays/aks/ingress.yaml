@@ -6,7 +6,7 @@ metadata:
 spec:
   ingressClassName: webapprouting.kubernetes.azure.com
   rules:
-  - host: demo.aks-gitops.azure.d-sancho.com
+  - host: demo.aksdemo.azure.d-sancho.com
     http:
       paths:
       - path: /
