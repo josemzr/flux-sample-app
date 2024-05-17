@@ -6,7 +6,7 @@ metadata:
   name: bgd
   namespace: demo
 spec:
-  replicas: 1
+  replicas: 5
   selector:
     matchLabels:
       app: bgd
